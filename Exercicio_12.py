@@ -1,6 +1,9 @@
-numero_1 = int(input('Número 1: '))
-numero_2 = int(input('Número 2: '))
+#Faça um programa que leia o nome, endereço e telefone de um usuário e imprima na tela.
 
-produto = numero_1 * numero_2
+nome = (input('Nome: '))
+endereço = (input('Endereço: '))
+telefone = (input('telefone: '))
 
-print(produto)
+lista = (nome, endereço, telefone)
+
+print(lista)

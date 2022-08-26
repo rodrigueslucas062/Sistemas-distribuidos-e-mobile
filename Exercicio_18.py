@@ -1,5 +1,9 @@
-salario = int(input('Salário: '))
+#Faça um programa que receba três notas, calcule e mostre a média aritmética.
 
-reajuste = salario * 0.25 + salario
+nota_1 = int(input('Nota 1: '))
+nota_2 = int(input('Nota 2: '))
+nota_3 = int(input('Nota 3: '))
 
-print(reajuste)
+media = nota_1 + nota_2 + nota_3 / 3
+
+print(media)

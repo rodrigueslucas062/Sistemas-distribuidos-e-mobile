@@ -1,7 +1,11 @@
-nota_1 = int(input('Nota 1: '))
-nota_2 = int(input('Nota 2: '))
-nota_3 = int(input('Nota 3: '))
+#Escreva um programa que solicite do usuário dois números, e imprima o resultado da soma, subtração, multiplicação e divisão.
 
-media = nota_1 + nota_2 + nota_3 / 3
+numero_1 = int(input('Número 1: '))
+numero_2 = int(input('Número 2: '))
 
-print(media)
+soma = numero_1 + numero_2
+sub = numero_1 - numero_2
+multi = numero_1 * numero_2
+divi = numero_1 / numero_2
+
+print(soma, sub, multi, divi)

@@ -1,9 +1,7 @@
-numero_1 = int(input('Número 1: '))
-numero_2 = int(input('Número 2: '))
+#Faça um programa que leia um número real e imprima a terça parte deste número.
 
-soma = numero_1 + numero_2
-sub = numero_1 - numero_2
-multi = numero_1 * numero_2
-divi = numero_1 / numero_2
+numero_1 = int(input('Número: '))
 
-print(soma, sub, multi, divi)
+produto = numero_1 / 3
+
+print(produto)

@@ -4,7 +4,7 @@ pes = float(input('Pés: '))
 
 jarda = pes / 3
 polegada = pes * 12
-milha = pes/ 5280
+milha = pes / 5280
 
 conversao = (jarda, polegada,  milha)
 
